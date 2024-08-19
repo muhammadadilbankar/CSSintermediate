@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+@font-face {
+    font-family: 'CustomFont'; /* Give your font a name */
+    src: url('fonts/Norse-Bold.otf') format('opentype'); /* Adjust the path if needed */
+    font-weight: normal; /* Specify the font-weight (normal, bold, etc.) */
+    font-style: normal;  /* Specify the font-style (normal, italic, etc.) */
+}
+
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+.theme {
+    height: 100vh; /* Full viewport height */
+    width: 40%; /*40% of the viewport width*/
+    background-image: url('images/shoaib-khan-Y5kB_QFQCRY-unsplash.jpg'); /* Replace with your image's path */
+    background-size: contain; /* Scale the image to fit within the element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    /* background-position: center center; Center the image in the div */
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.logo{
+    background-image:url('images/odin-lined.png');
+    background-color: black;
+    background-size: contain;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    height: 15vh;
+    width: 30vw;
+    margin-top: 25%;
+    font-family: 'CustomFont', sans-serif; /* Apply the custom font */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.form {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width:70%;
+    background-color: #dfe3ee;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    
+    height: 35vh;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 25px;
+    padding-top: 0;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.subsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    gap: 15px;
+}
+.header-text{
+    padding-left: 10px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 0;
+}
+.form-row{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 75%;
+}
+.form-unit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-size: small;
+    gap:0px;
+    padding-left: 20px;
+}
+.form-row input {
+    /* width: calc(90% - 20px); Takes 48% of the width to leave space between elements */
+    width:fit-content;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f6d9df;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.create{
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    background-color: #38571D;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius:10px;
+    width:145px;
+    margin-left: 35px;
+}
+.new-user {
+    margin-left: 35px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bolder;
+    font-size: smaller;
+    font-style: normal;
+    border-radius:10px;
+    width:250px;
+    margin-left: 35px;
+}
+.login{
+    color: #38571D;
+    font-weight: 900;
+}
+.intro-text{
+    margin-left: 35px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: normal;
+    border-radius:10px;
+}
+.logo{
+    background-color: black;
+    height: 15vh;
+    width:  79%;
+
+}
